@@ -17,7 +17,7 @@ if true then return {
       -- this file can contain specific instructions for your project
       instructions_file = "avante.md",
       -- for example
-      provider = "gpt-5",
+      provider = "openai",
       providers = {
         openai = {
           endpoint = "https://api.openai.com/v1",
