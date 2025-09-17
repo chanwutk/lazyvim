@@ -19,6 +19,15 @@ if true then return {
       -- for example
       provider = "claude",
       providers = {
+        openai = {
+          endpoint = "https://api.openai.com/v1",
+          model = "gpt-5",
+          timeout = 30000, -- Timeout in milliseconds
+            extra_request_body = {
+              temperature = 0.75,
+              max_tokens = 20480,
+            },
+        },
         claude = {
           endpoint = "https://api.anthropic.com",
           model = "claude-sonnet-4-20250514",
