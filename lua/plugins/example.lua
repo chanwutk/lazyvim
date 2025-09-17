@@ -22,6 +22,7 @@ if true then return {
         api_key_name = "AVANTE_OPENAI_API_KEY", -- Environment variable name for your API key
         model = "gpt-5", -- Or your preferred OpenAI model
         timeout = 30000, -- Timeout in milliseconds
+        temperature = 1,
       },
     },
     dependencies = {
