@@ -3,4 +3,4 @@
 -- Add any additional options here
 vim.g.autoformat = false
 
-opt.smoothscroll = false
+vim.opt.smoothscroll = false
