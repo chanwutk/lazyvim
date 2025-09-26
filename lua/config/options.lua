@@ -4,3 +4,5 @@
 vim.g.autoformat = false
 
 vim.g.snacks_animate = false
+
+opt.smoothscroll = false
